@@ -4,7 +4,7 @@
     "description": "Demonstrates implementing various Webex meeting types embedded in a browser application.",
     "scripts": {
         "build": "bash -c ./webpack/webpack.sh",
-        "server": "lite-server --port 3000 --baseDir=webpack"
+        "server": "lite-server -c 'lite-server config.json'"
     },
     "author": "David Staudt <dstaudt@cisco.com>",
     "license": "MIT",
