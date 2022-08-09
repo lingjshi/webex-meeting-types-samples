@@ -20,8 +20,8 @@ Bundling framework demonstrated:
 >This project was built/tested using:
 
 >* [Visual Studio Code](https://code.visualstudio.com/)
->* Ubuntu 20.04
->* Node 12.16.3
+>* Ubuntu 22.04
+>* Node 16.14.2
 
 [https://developer.webex.com/docs/sdks/browser](https://developer.webex.com/docs/sdks/browser)
 
@@ -46,13 +46,27 @@ Bundling framework demonstrated:
     code .
     ```
 
-1. In VS Code, launch the app by selecting the **Run** tab and clicking the green run button, or simply press **F5**   
+1. In VS Code from the **Run and Debug** tab, select "Build" from the dropdown menu and click the green run button.
 
-1. If Google Chrome is installed, it should open and navigate to [https://localhost:3000](https://localhost:3000), otherwise you may need to do this manually.
+   Or, from the terminal:
+
+   ```bash
+   npm run build
+   ```
+
+1. To launch the webserver, use the "Launch" dropdown option from the **Run and Debug** tab.
+
+   Or, from the terminal:
+
+   ```bash
+   npm run launch
+   ```
+
+   This should open the target page in your default browser.  If not, browse to [https://localhost:3000](https://localhost:3000)
 
 1. You can test the sample by logging into [developer.webex.com](https://developer.webex.com) and grabbing a Personal Access Token from the [Getting Started](https://developer.webex.com/docs/api/getting-started) page, then dialing another Webex Teams user via their Webex Id/email
 
-    >Don't connect and dial based on the same user - that won't work!
+   >**Note:** Don't connect and dial based on the same user - that won't work!
 
 ## Hints
 

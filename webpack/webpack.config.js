@@ -1,15 +1,19 @@
 const path = require('path');
+const NodePolyfillPlugin = require("node-polyfill-webpack-plugin")
 
 module.exports = {
-    entry: {
-        app: './index.js'
-    },
+    entry: './index.js',
     output: {
-        filename: '[name].bundle.js',
+        filename: 'app.bundle.js',
         path: path.resolve( __dirname, 'dist' )
     },
-    node: {
-        fs: 'empty'
+    plugins: [
+        new NodePolyfillPlugin()
+    ],
+    resolve: {
+        fallback: {
+            "fs": false,
+        },
     },
     devtool: 'source-map'
 };

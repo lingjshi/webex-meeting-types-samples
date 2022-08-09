@@ -5,13 +5,32 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "pwa-chrome",
+            "name": "Build",
             "request": "launch",
-            "name": "Serve and Debug",
-            "url": "http://localhost:3000/index.html",
-            "webRoot": "${workspaceFolder}/webpack",
-            "preLaunchTask": "start web server",
-            "postDebugTask": "stop web server"
+            "runtimeArgs": [
+                "run-script",
+                "build"
+            ],
+            "runtimeExecutable": "npm",
+            "runtimeVersion": "16",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
+            "name": "Launch",
+            "request": "launch",
+            "runtimeArgs": [
+                "run-script",
+                "launch"
+            ],
+            "runtimeExecutable": "npm",
+            "runtimeVersion": "16",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
         }
     ]
 }
