@@ -1,5 +1,7 @@
 # webex-meeting-types-samples
 
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://testing-developer.cisco.com/codeexchange/github/repo/lingjshi/DNAC-Webex-Teams-Bot-App)  [![Run in DevEnv](https://img.shields.io/static/v1.svg?label=DevNet&message=Run%20In%20DevEnv&color=42b983)](https://testing-developer.cisco.com/site/devenv-example/?id=devenv-base-bootstrap&community=true&GITHUB_SOURCE_REPO=https://github.com/lingjshi/webex-meeting-types-samples)  [![Run in VSCode](https://img.shields.io/static/v1.svg?label=DevNet&message=Run%20In%20VSCode&color=C623D8)](https://testing-developer.cisco.com/site/devenv-example/?id=devenv-vscode-base&community=true&type=vscode&GITHUB_SOURCE_REPO=https://github.com/lingjshi/webex-meeting-types-samples)
+
 ## Overview
 
 Demonstrates 'webpack' bundling of the Webex JavaScript SDK and [Momentum-UI](https://github.com/momentum-design/momentum-ui/) style assets for use in browser voice/video meeting application integrations.  The resulting page/bundle is served via a simple light web server as a single-page app.
