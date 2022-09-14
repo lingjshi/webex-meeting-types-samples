@@ -28,36 +28,37 @@ Bundling framework demonstrated:
 
 ## Getting started
 
-1. From a terminal, clone this repo using `git`:
+1. Open VSCode devenv, it has cloned the following repo automatically:
 
-    ```bash
-    git clone https://github.com/CiscoDevNet/webex-meeting-types-samples.git
+    ```
+    https://github.com/CiscoDevNet/webex-meeting-types-samples.git
     ```
 
-1. Install dependencies:
+1. In VS Code terminal, install dependencies:
 
     ```bash
     cd webex-meeting-types-samples
     npm install
     ```
 
-1. In VS Code from the **Run and Debug** tab, select "Build" from the dropdown menu and click the green run button.
-
-   Or, from the terminal:
+1. Run the build command in VS Code terminal:
 
    ```bash
    npm run build
    ```
 
-1. To launch the webserver, use the "Launch" dropdown option from the **Run and Debug** tab.
-
-   Or, from the terminal:
+1. To launch the webserver, run the following command int the terminal:
 
    ```bash
    npm run launch
    ```
 
-   This should open the target page in your default browser.  If not, browse to [https://localhost:3000](https://localhost:3000)
+   Open a new terminal and run the following command to get the web page url:
+   ```bash
+   echo $DEVENV_APP_9082_URL
+   ```
+   
+   Open the target page in your browser using the url.
 
 1. You can test the sample by logging into [developer.webex.com](https://developer.webex.com) and grabbing a Personal Access Token from the [Getting Started](https://developer.webex.com/docs/api/getting-started) page, then dialing another Webex Teams user via their Webex Id/email
 
