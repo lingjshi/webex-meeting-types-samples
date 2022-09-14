@@ -28,7 +28,7 @@ Bundling framework demonstrated:
 
 ## Getting started
 
-1. Open VSCode DevEnv, it has cloned the following repo automatically:
+1. Open VSCode DevEnv, the following repo has been cloned automatically:
 
     ```
     https://github.com/CiscoDevNet/webex-meeting-types-samples.git
