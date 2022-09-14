@@ -53,7 +53,7 @@ Bundling framework demonstrated:
    npm run launch
    ```
 
-   Open a new terminal and run the following command to get the web page url:
+1. Open a new terminal and run the following command to get the web page url:
    ```bash
    echo $DEVENV_APP_9082_URL
    ```
