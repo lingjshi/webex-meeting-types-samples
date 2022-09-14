@@ -4,7 +4,7 @@
   "description": "Demonstrates 'webpack' bundling of the Webex JavaScript SDK and Momentum-UI style assets for use in browser voice/video meeting application integrations",
   "scripts": {
     "build": "bash -c ./webpack/webpack.sh",
-    "launch": "http-server -o --port 3000 -d false -c-1 -d false webpack"
+    "launch": "http-server -o --port 9082 -d false -c-1 -d false webpack"
   },
   "repository": {
     "type": "git",
