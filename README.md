@@ -13,7 +13,6 @@ Includes examples of accessing/joining various meeting types, including:
 * Scheduling and joining Webex scheduling meetings
 * PMR meetings
 * Webex Calling/PSTN dialing
-* SIP calling/meetings
 
 Bundling framework demonstrated:
 
@@ -40,12 +39,6 @@ Bundling framework demonstrated:
     ```bash
     cd webex-meeting-types-samples
     npm install
-    ```
-
-1. Open the project in VS Code:
-
-    ```bash
-    code .
     ```
 
 1. In VS Code from the **Run and Debug** tab, select "Build" from the dropdown menu and click the green run button.
