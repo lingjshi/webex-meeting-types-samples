@@ -37,7 +37,6 @@ Bundling framework demonstrated:
 1. In VS Code terminal, install dependencies:
 
     ```bash
-    cd webex-meeting-types-samples
     npm install
     ```
 
