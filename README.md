@@ -36,30 +36,31 @@ The following repo has been cloned automatically:
 https://github.com/CiscoDevNet/webex-meeting-types-samples.git
 ```
 
-#### 2.In VS Code terminal, install dependencies:
+#### 2.In VS Code terminal, install dependencies
 
 ```bash
 npm install
 ```
 
-#### 3.Run the build command in VS Code terminal:
+#### 3.Run the build command in VS Code terminal
 
 ```bash
 npm run build
 ```
 
-#### 4.To launch the webserver, run the following command int the terminal:
+#### 4.Run the command to launch the webserver
 
 ```bash
 npm run launch
 ```
 
-#### 5.Open a new terminal and run the following command to get the web page url:
+#### 5.Open a new terminal and run the command to get the url
+
 ```bash
 echo $DEVENV_APP_9082_URL
 ```
    
-#### 6.Open the target page in your browser using the url.
+#### 6.Open the target page in your browser using the url
 
 You can test the sample by logging into [developer.webex.com](https://developer.webex.com) and grabbing a Personal Access Token from the [Getting Started](https://developer.webex.com/docs/api/getting-started) page, then dialing another Webex Teams user via their Webex Id/email
 
