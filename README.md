@@ -28,52 +28,52 @@ Bundling framework demonstrated:
 
 ## Getting started
 
-1. Open VSCode DevEnv, the following repo has been cloned automatically:
+### 1.Open VSCode DevEnv, the following repo has been cloned automatically:
 
-    ```
-    https://github.com/CiscoDevNet/webex-meeting-types-samples.git
-    ```
+```
+https://github.com/CiscoDevNet/webex-meeting-types-samples.git
+```
 
-1. In VS Code terminal, install dependencies:
+### 2.In VS Code terminal, install dependencies:
 
-    ```bash
-    npm install
-    ```
+```bash
+npm install
+```
 
-1. Run the build command in VS Code terminal:
+### 3.Run the build command in VS Code terminal:
 
-   ```bash
-   npm run build
-   ```
+```bash
+npm run build
+```
 
-1. To launch the webserver, run the following command int the terminal:
+### 4.To launch the webserver, run the following command int the terminal:
 
-   ```bash
-   npm run launch
-   ```
+```bash
+npm run launch
+```
 
-1. Open a new terminal and run the following command to get the web page url:
-   ```bash
-   echo $DEVENV_APP_9082_URL
-   ```
+### 5.Open a new terminal and run the following command to get the web page url:
+```bash
+echo $DEVENV_APP_9082_URL
+```
    
-   Open the target page in your browser using the url.
+### 6.Open the target page in your browser using the url.
 
-1. You can test the sample by logging into [developer.webex.com](https://developer.webex.com) and grabbing a Personal Access Token from the [Getting Started](https://developer.webex.com/docs/api/getting-started) page, then dialing another Webex Teams user via their Webex Id/email
+You can test the sample by logging into [developer.webex.com](https://developer.webex.com) and grabbing a Personal Access Token from the [Getting Started](https://developer.webex.com/docs/api/getting-started) page, then dialing another Webex Teams user via their Webex Id/email
 
-   >**Note:** Don't connect and dial based on the same user - that won't work!
+>**Note:** Don't connect and dial based on the same user - that won't work!
 
 ## Hints
 
-* There is a workaround in webpack/webpack.config.js for an [issue](https://github.com/webpack-contrib/css-loader/issues/447) Webpack has with the `fs` module that's a dependency of `webex`, but not actually needed in browser usage:
+There is a workaround in webpack/webpack.config.js for an [issue](https://github.com/webpack-contrib/css-loader/issues/447) Webpack has with the `fs` module that's a dependency of `webex`, but not actually needed in browser usage:
 
 ```javascript
-    ...
-    node: {
+...
+node: {
     fs: 'empty'
-    }
-    ...
+}
+...
 ```
 
-* See `package.json` for the `browserlists` array of target browsers/versions
+See `package.json` for the `browserlists` array of target browsers/versions
 
